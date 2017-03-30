@@ -1868,7 +1868,7 @@ IOjzCOERCAQCgUDQ5xHCIxAIBAKBoM8jhEcgEAgEAkGf5/8Bd305qhVtPWkAAAAASUVORK5CYII=
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
 &lt;p&gt;To view the data in 3-D I will convert the data into VTK format and then use &lt;a href="http://www.paraview.org/"&gt;Paraview&lt;/a&gt; to do the visualisation.  You could also use Mayavi2 instead of Paraview and keep everything in python.&lt;/p&gt;
-&lt;p&gt;To convert the data to a VTK file I use the evtk.hl module which needs to be downloaded from Paulo Herrera's &lt;a href="https://bitbucket.org/pauloh/pyevtk/downloads/"&gt;Bitbucket page&lt;/a&gt;.  Download the zip file and do in a terminal window:&lt;/p&gt;
+&lt;p&gt;To convert the data to a VTK file I use the evtk.hl module which needs to be downloaded from Paulo Herrera's &lt;a href="https://bitbucket.org/pauloh/pyevtk/downloads/"&gt;Bitbucket page&lt;/a&gt;.  Download the zip file and do something like the following in a terminal window (works on my Mac):&lt;/p&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;pip install ~/Downloads/pauloh-pyevtk-c5d3f17930ad.zip
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
