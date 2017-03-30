@@ -123,7 +123,7 @@
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Seismic tomography provides images of the interior of the planet.  As computing power, expertise, and the increasing availability of high quality seismic data has increased we are seeing higher resolution images of the velocity structure inside the Earth.  <a href="http://doi.org/10.1093/gji/ggw324">Cottaar and Lekic (2016)</a> look at a suite of recent models and use clustering to automatically interpret regions inside planets as "fast", "neutral", or "background" in terms of the speed at which seismic waves propagate through.  They then count votes at each location to see how well the models agree.</p>
 <p>In the lower mantle vast <a href="http://www.nature.com/ngeo/journal/v9/n7/abs/ngeo2733.html">continental scale features</a> dominate the landscape.  These are characterised by slow seismic velocities and pose an interesting scientific problem: What are they?  Are they hot?  Are they made of different "stuff" to the surroundings?  What role do they play in the Earth's dynamics?</p>
-<p>By looking at consensus regions where models agree that the Earth is slow, we get a picture of what these features <em>might</em> actually look like.</p>
+<p>By looking at consensus regions where models agree that the Earth is slower than normal to seismic waves, we get a picture of what these features <em>might</em> actually look like.</p>
 <p>Here I take the data from <a href="https://www.geol.umd.edu/facilities/seismology/data/morphology-of-lower-mantle-structures/">Ved Lekic's website</a> and show how to plot it up using Python and how to spin it around in 3-D using Paraview.  Hopefully this will be useful to someone wanting to look at the models and spin them around for themselves.</p>
 </div>
 </div>
@@ -133,17 +133,17 @@
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">¶</a></h2><p>This work was done in an ipython notebook which can be downloaded <a href="link">here</a>.</p>
-<p>You will need to import a few things within python.</p>
+<h2 id="Preliminaries">Preliminaries<a class="anchor-link" href="#Preliminaries">¶</a></h2><p>You will need to import a few things within python.</p>
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In [20]:</div>
+<div class="prompt input_prompt">In [1]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="o">%</span><span class="k">matplotlib</span> inline
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># top line probably not needed unless woking in Jupyter notebook</span>
+<span class="o">%</span><span class="k">matplotlib</span> inline
 
 <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="kn">as</span> <span class="nn">mpl</span>
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="kn">as</span> <span class="nn">plt</span>
@@ -1948,17 +1948,17 @@ IOjzCOERCAQCgUDQ5xHCIxAIBAKBoM8jhEcgEAgEAkGf5/8Bd305qhVtPWkAAAAASUVORK5CYII=
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Here are some very basic instructions for viewing in Paraview using the GUI.</p>
+<p>Here are some very basic instructions to get started viewing in Paraview.</p>
 <p>Open Paraview and follow these instructions:</p>
 <ul>
-<li>File -> Open -> "votes.vtk".</li>
+<li>File -> Open -> "votes.vts".</li>
 <li>Makesure the votes.vts file is selected in the Pipeline Browser window.</li>
 <li>In the "Properties" window Click "Apply". Once this has loaded you can view the grid by changing the Representation to Wireframe (optional).</li>
 <li>Click on the little eye icon to the left of the votes.vts in the Pipeline browser to hide it from view.</li>
 <li>With votes.vtks selected in the Pipeline Browser add a Threshold filter.  This can be found by navigating through the menus Filters -> Common -> Threshold.</li>
 <li>In the properties menu attached to the Threshold filter select:</li>
 <li>Scalars -> Slow.</li>
-<li>Minimum -> 5; Maximum ->5. Press Apply.</li>
+<li>Minimum -> 5 (or 4); Maximum ->5. Press Apply.</li>
 <li>You should now see the volumes of the Consensus Slow regions in the visualisation panel and be able to spin it around.</li>
 <li>Set coloring to "Solid Color", click on the Edit panel immediately below and choose a red colour.</li>
 <li>Play around with the Styling and Lighting options until you find something you are happy with.  I personally like the look with opacity set to around 0.4 and ambient lighting set to about 0.4.</li>
@@ -1967,7 +1967,18 @@ IOjzCOERCAQCgUDQ5xHCIxAIBAKBoM8jhEcgEAgEAkGf5/8Bd305qhVtPWkAAAAASUVORK5CYII=
 <li>Click on the little eye to make it visible, change the radius to 0.55, and change both Theta and Phi resolution to about 50.  Click Apply.</li>
 </ul>
 <p>You should then have something that looks a bit like this:</p>
-<p><img alt="title" src="screenshot.png" /></p>
+<p><img alt="title" src="images/screenshot.png" /></p>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In [ ]:</div>
+<div class="inner_cell">
+<div class="input_area">
+<div class=" highlight hl-ipython2"><pre><span></span> 
+</pre></div>
+</div>
 </div>
 </div>
 </div>
