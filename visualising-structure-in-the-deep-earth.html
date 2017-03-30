@@ -142,7 +142,7 @@
 <div class="prompt input_prompt">In [2]:</div>
 <div class="inner_cell">
 <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># top line probably not needed unless woking in Jupyter notebook</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># top line probably not needed unless working in Jupyter notebook</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
 
 <span class="kn">import</span> <span class="nn">matplotlib</span> <span class="kn">as</span> <span class="nn">mpl</span>
@@ -1891,6 +1891,9 @@ IOjzCOERCAQCgUDQ5xHCIxAIBAKBoM8jhEcgEAgEAkGf5/8Bd305qhVtPWkAAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>To view the data in 3-D I will convert the data into VTK format and then use <a href="http://www.paraview.org/">Paraview</a> to do the visualisation.  You could also use Mayavi2 instead of Paraview and keep everything in python.</p>
+<p>To convert the data to a VTK file I use the evtk.hl module which needs to be downloaded from Paulo Herrera's <a href="https://bitbucket.org/pauloh/pyevtk/downloads/">Bitbucket page</a>.  Download the zip file and do:</p>
+<div class="highlight"><pre><span></span>pip install ~/Downloads/pauloh-pyevtk-c5d3f17930ad.zip
+</pre></div>
 </div>
 </div>
 </div>
@@ -1900,7 +1903,7 @@ IOjzCOERCAQCgUDQ5xHCIxAIBAKBoM8jhEcgEAgEAkGf5/8Bd305qhVtPWkAAAAASUVORK5CYII=
 <div class="inner_cell">
 <div class="input_area">
 <div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">evtk.hl</span> <span class="kn">import</span> <span class="n">gridToVTK</span>
-<span class="c1"># you might have to install the evtk module manually.</span>
+<span class="c1"># make sure you have installed this module (as shown above)</span>
 
 <span class="c1"># chop off shallow data (optional)</span>
 <span class="n">mindepth</span> <span class="o">=</span> <span class="mi">1200</span>
