@@ -5,7 +5,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Visualising-tomographic-consensus-in-the-lower-mantle-á-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;Visualising tomographic consensus in the lower-mantle á la Cottaar and Lekic (GJI, 2016)&lt;a class="anchor-link" href="#Visualising-tomographic-consensus-in-the-lower-mantle-á-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="Visualising-tomographic-consensus-in-the-lower-mantle-à-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;Visualising tomographic consensus in the lower-mantle à la Cottaar and Lekic (GJI, 2016)&lt;a class="anchor-link" href="#Visualising-tomographic-consensus-in-the-lower-mantle-à-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -89,7 +89,7 @@
 &lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="text_cell_render border-box-sizing rendered_html"&gt;
-&lt;h1 id="Visualising-tomographic-consensus-in-the-lower-mantle-á-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;Visualising tomographic consensus in the lower-mantle á la Cottaar and Lekic (GJI, 2016)&lt;a class="anchor-link" href="#Visualising-tomographic-consensus-in-the-lower-mantle-á-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;¶&lt;/a&gt;&lt;/h1&gt;
+&lt;h1 id="Visualising-tomographic-consensus-in-the-lower-mantle-à-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;Visualising tomographic consensus in the lower-mantle à la Cottaar and Lekic (GJI, 2016)&lt;a class="anchor-link" href="#Visualising-tomographic-consensus-in-the-lower-mantle-à-la-Cottaar-and-Lekic-(GJI,-2016)"&gt;¶&lt;/a&gt;&lt;/h1&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -116,7 +116,7 @@
 &lt;/div&gt;
 &lt;div class="cell border-box-sizing code_cell rendered"&gt;
 &lt;div class="input"&gt;
-&lt;div class="prompt input_prompt"&gt;In [1]:&lt;/div&gt;
+&lt;div class="prompt input_prompt"&gt;In [2]:&lt;/div&gt;
 &lt;div class="inner_cell"&gt;
 &lt;div class="input_area"&gt;
 &lt;div class=" highlight hl-ipython2"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="c1"&gt;# top line probably not needed unless woking in Jupyter notebook&lt;/span&gt;
@@ -1944,7 +1944,7 @@ IOjzCOERCAQCgUDQ5xHCIxAIBAKBoM8jhEcgEAgEAkGf5/8Bd305qhVtPWkAAAAASUVORK5CYII=
 &lt;li&gt;Click on the little eye to make it visible, change the radius to 0.55, and change both Theta and Phi resolution to about 50.  Click Apply.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;You should then have something that looks a bit like this:&lt;/p&gt;
-&lt;p&gt;&lt;img src="/Users/glyjw/mysite/content/images/screenshot.png" width="600" /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src="images/screenshot.png" width="600" /&gt;&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
